@@ -1,0 +1,55 @@
+:root{
+    --light-gray: #171718a1;
+    --primary-color: #4bc7f0;
+    --border: #2b303218;
+    --text-color: #ee404e;
+    --roboto:"Roboto", sans-serif;
+    --gugi: "Gugi", cursive;
+    --sofia: "Sofia", cursive;
+}
+
+.d-flex-info{
+    margin-top: 5%;
+}
+
+.detail-product{
+    padding-top: 3%;
+    margin-bottom: 10%;
+}
+
+.detail-product .product-img{
+
+    margin-left: 20%;
+    width: 65%;
+    height: 90%;
+}
+
+.detail-product .tittle-product{
+    font-family: var(--gugi);
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-left: 1%;
+    margin-top: 0;
+}
+
+
+.newarrival{
+    margin-top: 5%;
+    background: green;
+    width: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.checked{
+    color: orange;
+}
+
+.product-price{
+    color: rgb(236, 126, 0);
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 3%;
+}
+
